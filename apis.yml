@@ -1,7 +1,27 @@
 aid: cider
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cider.png
 name: Cider
-description: Cider is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Cider is a global direct-to-consumer digital-first fashion brand geared toward
+  Gen Z shoppers, founded in 2020 and operating primarily at shopcider.com and
+  through its mobile apps. Backed by Andreessen Horowitz (a16z), DST Global, and
+  Greenoaks Capital, Cider reached unicorn valuation as a fast-fashion challenger
+  to SHEIN, using a data- and community-driven, on-demand manufacturing model to
+  offer trend-forward women's clothing and accessories worldwide. Cider is a
+  consumer retailer; it publishes no public developer API, developer portal, or
+  API documentation. This profile was surfaced as an a16z portfolio company and
+  added to the API Evangelist network as a company record.
 url: https://raw.githubusercontent.com/api-evangelist/cider/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +31,37 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Fashion
+- E-Commerce
+- Direct-to-Consumer
+- Retail
+- Consumer
+- Apparel
+- Gen Z
 apis: []
+common:
+- type: DomainSecurity
+  url: security/cider-domain-security.yml
+- type: Website
+  url: https://www.shopcider.com/
+- type: TermsOfService
+  url: https://www.shopcider.com/policies/terms
+- type: PrivacyPolicy
+  url: https://www.shopcider.com/policies/privacy
+- type: Support
+  url: https://www.shopcider.com/support/faq/list
+- type: About
+  url: https://www.shopcider.com/about_us
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
