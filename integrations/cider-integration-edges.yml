@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/cider/integrations
+- https://n8n.io/integrations/cider/
+- https://composio.dev/toolkits/cider
+- https://monid.ai/tools/cider
+checked:
+- https://composio.dev/toolkits/cider
+- https://monid.ai/tools/cider
+- https://n8n.io/integrations/cider/
+- https://zapier.com/apps/cider/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
